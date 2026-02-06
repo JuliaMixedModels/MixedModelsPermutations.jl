@@ -25,7 +25,7 @@ jobs:
         os: [ubuntu-latest] # macos-10.15, windows-2019, macOS-14
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Julia Setup
         uses: julia-actions/setup-julia@v2
         with:
